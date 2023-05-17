@@ -1,0 +1,199 @@
+@font-face {font-family:'Caviar_Dreams';src: url('fonts/Caviar_Dreams.ttf');}
+@font-face {font-family:'CloverDisplay-Bold';src: url('fonts/CloverDisplay-Bold.ttf');}
+body {
+	background-image: url(background.png);
+	background-size: cover;
+	margin: 0px;
+}
+
+a { 
+    text-decoration: none;
+   }
+.header, nav, main, footer{
+
+    margin: 0px;
+
+}
+header{
+    height: 90px;
+    width: 100%;
+    background: white;
+
+}
+nav{
+    height: 60px;
+    width: 100%;
+	background: white;
+	font-family: 'Caviar_Dreams';
+}
+.navbtn{
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	width: 1200px;
+	height: 60px;
+}
+main{
+    height: auto;
+    width: 100%;
+    background: gold;
+    font-family: 'Caviar_Dreams';
+}
+footer{
+    height: 90px;
+    width: 1450px;
+    background: white;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+.name, .vhod {
+    height: 10px;
+    width: auto;
+	margin-left: 20px;
+	float: left;
+    background: white;
+}
+.vhod {
+	margin-left: 700px;
+	font-family: 'Caviar_Dreams';
+
+}
+.logo, .name, .vhod{
+	height: 15px;
+    width: auto;
+    float: left;
+	margin-top: 10px;
+}
+
+.image_logo {
+    height: 75px;
+    width: 75px;
+    margin-left: 10px;
+}
+
+.name{
+    width: 150px;
+    margin-top: 20px;
+	color: black;
+	height: 50px;
+	text-align: center;
+	margin-left: 750px;
+
+
+}
+.nametxt {
+	font-size: 50px;
+}
+
+.a1 {
+   	color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+.a11 {
+    border-radius:10px;
+    padding:0px;
+    margin-top: 10px;
+}
+.a2 {
+	background: white;
+    border:4px black;
+    border-radius: 20px;
+    padding: 15px;
+    float: left;
+	margin-left: 130px;
+}
+.left, .right, .center{
+	float: left;
+	height: auto ;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+
+}
+.left, .right{
+	width: 10%;
+	background: white;
+}
+.right {
+
+}
+.left {
+	text-align: center;
+
+}
+
+.center{
+	width: 78%;
+	background: white;
+}
+.rek_time{
+	height: auto;
+	width: 90%;
+
+}
+
+.tovar{
+	height: auto;
+	width: 310px;
+	float: left;
+	margin: 20px;
+	
+}
+.tovar_img{
+	height: 310px;
+	width: 310px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+.tovar_about{
+	height: auto;
+	width: 310px;
+}
+input[type='submit']{
+	background: white;
+	border: 4px #c3d7d9;
+	border-radius: 10px;
+	font-family: Caviar_Dreams;
+	font-size: 14px;
+	line-height: franklin gothic medium;
+	margin: 0px;
+	padding: 4px;
+}
+
+.kt{
+	height: auto;
+	width: auto;
+    float: left;
+}
+
+.inst{
+	height: auto;
+	width: auto;
+	float: center;
+	margin-left: 200px;
+	margin-top: 0px;
+}
+.regborder{
+	border-radius: 10px;
+}	
+.tovar_mini{
+	height: auto;
+	width: 100px;
+}
+.scale {
+    transition: 1s; /* Время эффекта */
+}
+.scale:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+.karusel {
+	object-fit: cover;
+	font-family:'Caviar_Dreams';
+}
+.carname {
+	font-size: 20px;
+}
+
